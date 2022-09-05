@@ -1,0 +1,42 @@
+#canvas{
+  background-color: black;
+  height:340px;
+  width:340px;
+}
+.clickFun{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.buttonDiv{
+  width:150px;
+  height:150px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  background-color:blue;
+}
+.btn{
+  height:50px;
+}
+.rLbtn{
+  margin:5px 0 5px 0;
+  display:flex;
+  justify-content:space-around;
+}
+.upBtn{
+  display:block;
+}
+.score{
+  position:absolute;
+  left:50px;
+  top:20px;
+  width:20px;
+  height:20px;
+  background-color:white;
+  color:black;
+  display:flex;
+ align-items:center;
+ justify-content:center;
+  
+}
